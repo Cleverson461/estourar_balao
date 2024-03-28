@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos do mouse</title>
+</head>
+
+<body>
+
+  <button 
+  style="width: 400px; height: 60px;"
+  onmousedown="apertoumouse()"
+  onmouseup="solteimouse()"
+  onmousemove="movendomouse()"
+  onmouseover="passeiomouse()"
+  onmouseout="tirouomouse()"
+  >Fazer Pedido</button>
+
+  <button 
+  style="width: 400px; height: 60px;"
+  onclick="onClick()"
+  oncontextmenu=" return botaoDireito()"
+  >Fazer Pedido 2</button>
+</body>
+<script src="index.js"></script>
+
+</html>
